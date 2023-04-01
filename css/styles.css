@@ -7,6 +7,7 @@
   --okean-active-btn: #404bbf;
   --logo-dark-txt-container: #2e2f42;
   --logo-btn-txt: #f4f4fd;
+  --light-bg-container: #f4f4fd;
 }
 .body {
   font-family: var(--primary-font);
@@ -14,15 +15,18 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-txt-cl);
+  background-color: var(--light-txt-cl);
 }
 .list {
   list-style: none;
+  font-style: normal;
 }
 .link {
   text-decoration: none;
 }
 .btn {
   font-family: var(--primary-font);
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   display: flex;
@@ -39,12 +43,15 @@
 }
 .bth-portfolio {
   font-family: var(--primary-font);
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--accent-txt-cl);
   background: var(--logo-btn-txt);
+  cursor: pointer;
 }
+
 .bth-portfolio:hover,
 .btn-portfolio:focus {
   background-color: var(--okean-active-btn);
@@ -53,6 +60,7 @@
 
 .title {
   font-family: var(--primary-font);
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -64,6 +72,7 @@
 }
 .footer-text {
   font-family: var(--primary-font);
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -72,6 +81,7 @@
 
 .logo {
   font-family: var(--secondary-font);
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -87,6 +97,7 @@
 }
 .header-link {
   font-family: var(--primary-font);
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -94,6 +105,7 @@
 }
 .header-contact {
   font-family: var(--primary-font);
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -117,11 +129,14 @@
 }
 .caption {
   font-family: var(--primary-font);
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: var(--logo-dark-txt-container);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--logo-dark-txt-container);
+}
+.light-bg {
+  background: var(--light-bg-container);
 }
