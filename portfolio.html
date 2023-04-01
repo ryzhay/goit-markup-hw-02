@@ -5,41 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <body class="body">
     <header>
       <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+        <a class="logo link" href="./index.html"
+          >Web <span class="logo-dark">Studio</span></a
+        >
+        <ul class="list">
+          <li><a class="link header-link" href="">Studio</a></li>
+          <li><a class="link header-link" href="">Portfolio</a></li>
+          <li><a class="link header-link" href="">Contacts</a></li>
         </ul>
       </nav>
       <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com"></a>info@devstudio.com</li>
-          <li><a href="tel:+110001111111"></a>+11 (000) 111-11-11</li>
+        <ul class="list">
+          <li>
+            <a class="link header-contact" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="link header-contact" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
     <main>
-      <ul>
-        <li><button type="button">All</button></li>
-        <li><button type="button">Web Site</button></li>
-        <li><button type="button">App</button></li>
-        <li><button type="button">Design</button></li>
-        <li><button type="button">Marketing</button></li>
+      <ul class="list">
+        <li><button class="bth-portfolio" type="button">All</button></li>
+        <li><button class="bth-portfolio" type="button">Web Site</button></li>
+        <li><button class="bth-portfolio" type="button">App</button></li>
+        <li><button class="bth-portfolio" type="button">Design</button></li>
+        <li><button class="bth-portfolio" type="button">Marketing</button></li>
       </ul>
-      <ul>
+      <ul class="list">
         <li>
           <img
             src="./images.portfolio/img-1.jpg"
             width="360"
             height="300"
-            alt=""
+            alt="Banking App Interface Concept"
           />
-          <h3>Banking App Interface Concept</h3>
+          <h3 class="uppertitle">Banking App Interface Concept</h3>
           <p>App</p>
         </li>
         <li>
@@ -47,9 +64,9 @@
             src="./images.portfolio/img-2.jpg"
             width="360"
             height="300"
-            alt=""
+            alt="Cashless Payment"
           />
-          <h3>Cashless Payment</h3>
+          <h3 class="uppertitle">Cashless Payment</h3>
           <p>Marketing</p>
         </li>
         <li>
@@ -57,21 +74,21 @@
             src="./images.portfolio/img-3.jpg"
             width="360"
             height="300"
-            alt=""
+            alt="Meditation App"
           />
-          <h3>Meditation App</h3>
+          <h3 class="uppertitle">Meditation App</h3>
           <p>App</p>
         </li>
       </ul>
-      <ul>
+      <ul class="list">
         <li>
           <img
             src="./images.portfolio/img-4.jpg"
             width="360"
             height="300"
-            alt=""
+            alt="Taxi Service"
           />
-          <h3>Taxi Service</h3>
+          <h3 class="uppertitle">Taxi Service</h3>
           <p>Marketing</p>
         </li>
         <li>
@@ -79,9 +96,9 @@
             src="./images.portfolio/img-5.jpg"
             width="360"
             height="300"
-            alt=""
+            alt="Screen Illustrations"
           />
-          <h3>Screen Illustrations</h3>
+          <h3 class="uppertitle">Screen Illustrations</h3>
           <p>Design</p>
         </li>
         <li>
@@ -89,21 +106,21 @@
             src="./images.portfolio/img-6.jpg"
             width="360"
             height="300"
-            alt=""
+            alt="Online Courses"
           />
-          <h3>Online Courses</h3>
+          <h3 class="uppertitle">Online Courses</h3>
           <p>Marketing</p>
         </li>
       </ul>
-      <ul>
+      <ul class="list">
         <li>
           <img
             src="./images.portfolio/img-7.jpg"
             width="360"
             height="300"
-            alt=""
+            alt="Instagram Stories Concept"
           />
-          <h3>Instagram Stories Concept</h3>
+          <h3 class="uppertitle">Instagram Stories Concept</h3>
           <p>Design</p>
         </li>
         <li>
@@ -111,9 +128,9 @@
             src="./images.portfolio/img-8.jpg"
             width="360"
             height="300"
-            alt=""
+            alt="Organic Food"
           />
-          <h3>Organic Food</h3>
+          <h3 class="uppertitle">Organic Food</h3>
           <p>Web Site</p>
         </li>
         <li>
@@ -121,16 +138,18 @@
             src="./images.portfolio/img-9.jpg"
             width="360"
             height="300"
-            alt=""
+            alt="Fresh Coffee"
           />
-          <h3>Fresh Coffee</h3>
+          <h3 class="uppertitle">Fresh Coffee</h3>
           <p>Web Site</p>
         </li>
       </ul>
     </main>
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+    <footer class="dark-bg">
+      <a class="logo link" href="./index.html"
+        >Web <span class="logo-light">Studio</span></a
+      >
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
