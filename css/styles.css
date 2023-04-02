@@ -34,7 +34,7 @@
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--light-txt-cl);
-  background: var(--accent-txt-cl);
+  background-color: var(--accent-txt-cl);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -49,7 +49,7 @@
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--accent-txt-cl);
-  background: var(--logo-btn-txt);
+  background-color: var(--logo-btn-txt);
   cursor: pointer;
 }
 
