@@ -111,6 +111,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-txt-cl);
+  font-style: normal;
 }
 
 .header-link:hover,
@@ -151,4 +152,7 @@ letter-spacing: 0.02em;
 color: var(--main-txt-cl);
 
 
+}
+.picture {
+  background-color: var(--light-txt-cl);
 }
