@@ -55,8 +55,8 @@
 
 .bth-portfolio:hover,
 .btn-portfolio:focus {
-  background-color: var(--okean-active-btn);
-  color: var(--light-txt-cl);
+  background-color: #404BBF; ;
+  color: #FFFFFF;;
 }
 
 .title {
