@@ -52,7 +52,7 @@
   background-color: var(--logo-btn-txt);
   cursor: pointer;
 }
-.bth-portfolio:hover{
+.bth-portfolio:focus {
   background-color: #404BBF; 
   color: #FFFFFF;
 
